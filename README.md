@@ -11,4 +11,4 @@ Seja bem vindo ao projeto NodeJS com AngularJS 2 e RestFul!
    
   
 #Testar a aplicação
-     Entre: https://node-angular2-restful.herokuapp.com/
+Entre no site https://node-angular2-restful.herokuapp.com/
