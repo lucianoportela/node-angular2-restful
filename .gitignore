@@ -17,6 +17,11 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+#REMOVENDO PASTAS NAO UTILIZADAS
+node_modules/
+nbproject/*
+
+
 # =========================
 # Operating System Files
 # =========================
