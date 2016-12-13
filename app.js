@@ -9,6 +9,7 @@ var usuario = require('./routes/usuario');
 var perfil = require('./routes/perfil');
 var aluno=require('./routes/aluno');
 var totalizador=require('./routes/totalizador');
+var turma=require('./routes/turma');
 
 var mongoose = require('mongoose');
 
@@ -58,6 +59,8 @@ app.use('/usuario', usuario);
 app.use('/perfil', perfil);
 app.use('/aluno', aluno);
 app.use('/totalizador',totalizador);
+app.use('/turma',turma);
+
 
 
 
