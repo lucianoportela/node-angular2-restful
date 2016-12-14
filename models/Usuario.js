@@ -7,7 +7,7 @@ var UsuarioSchema = new mongoose.Schema({
   	 nome:String
   },
   cep:Number,
-  endereco:string
+  endereco:String
 });
 
 module.exports = mongoose.model('Usuario', UsuarioSchema);
