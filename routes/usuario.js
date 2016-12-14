@@ -2,43 +2,43 @@ var express = require('express');
 var router = express.Router();
 
 var mongoose = require('mongoose');
-var Aluno = require('../models/Aluno.js');
+var Usuario = require('../models/Usuario.js');
 
-/* GET /aluno Listagem de alunos. */
+/* GET /usuario Listagem de usuarios. */
 router.get('/', function(req, res, next) {
-  Aluno.find(function (err, aluno) {
+  Usuario.find(function (err, usuario) {
     if (err) return next(err);
-    res.json(aluno);
+    res.json(usuario);
   });
 });
 
-/* POST /aluno Cadastro de aluno */
+/* POST /usuario Cadastro de usuario */
 router.post('/', function(req, res, next) {
-  Aluno.create(req.body, function (err, post) {
+  Usuario.create(req.body, function (err, post) {
     if (err) return next(err);
     res.json(post);
   });
 });
 
-/* GET /aluno/id  Lista filtrada por um aluno*/
+/* GET /usuario/id  Lista filtrada por um usuario*/
 router.get('/:id', function(req, res, next) {
-  Aluno.findById(req.params.id, function (err, post) {
+  Usuario.findById(req.params.id, function (err, post) {
     if (err) return next(err);
     res.json(post);
   });
 });
 
-/* PUT /aluno/:id Salva a edição de aluno */
+/* PUT /usuario/:id Salva a edição de usuario */
 router.put('/:id', function(req, res, next) {
-  Aluno.findByIdAndUpdate(req.params.id, req.body, function (err, post) {
+  Usuario.findByIdAndUpdate(req.params.id, req.body, function (err, post) {
     if (err) return next(err);
     res.json(post);
   });
 });
 
-/* DELETE /aluno/:id Deletando o aluno a partir do id */
+/* DELETE /usuario/:id Deletando o usuario a partir do id */
 router.delete('/:id', function(req, res, next) {
-  Aluno.findByIdAndRemove(req.params.id, req.body, function (err, post) {
+  Usuario.findByIdAndRemove(req.params.id, req.body, function (err, post) {
     if (err) return next(err);
     res.json(post);
   });
