@@ -1,4 +1,4 @@
-#[node-angular2-restful](https://node-angular2-restful.herokuapp.com/ target="_blank")
+#[node-angular2-restful](https://node-angular2-restful.herokuapp.com" target="_blank)
 
 ####Node-Angular2-Restful
 
