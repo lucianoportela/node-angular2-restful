@@ -2,14 +2,15 @@
 
 ####Node-Angular2-Restful
 
-* Node-Angular2-Restful is a complete open source.  
-* It was originally developed by Luciano Portela
-* You can find out more by visiting the [project page](https://node-angular2-restful.herokuapp.com/).
+*  Adaptado por Luciano Portela.  
+
+* Node-Angular2-Restful possui um conjunto de operações bem definidas. 
+* Utiliza as operações do HTTP como  POST, GET, PUT e DELETE.
 
 
 ***
 
-####Node-Angular2-Restful is built on top of the following libraries :
+####Node-Angular2-Restful é construido com as bibliotecas :
 
 * [Node.js](http://nodejs.org/) - Application Server
 * [AngularJs](https://angularjs.org/) - Angularjs
@@ -17,12 +18,12 @@
 
 ***
 
-Test [node-angular2-restful](https://node-angular2-restful.herokuapp.com/) 
+ [Página do Projeto](https://node-angular2-restful.herokuapp.com/) 
 
 ***
 
-####Installation & Setup
-This assumes you already have node.js & npm installed.
+####Instalação & Configuração
+Assumimos que voce tem o node.js & npm instalados.
 ```
 git clone https://github.com/lucianoportela/node-angular2-restful.git node-angular2-restful
 cd node-angular2-restful
@@ -31,7 +32,10 @@ npm start
 ```
 
 
-####Contributing
+####Contribuição
 ---
 
-Node-Angular2-Restful is an open source project and we encourage contributions. Please contact
+Node-Angular2-Restful é um projeto open source. Sinta-se livre para contribuir!
+
+####Teste o Serviço
+--- Acesso: https://node-angular2-restful.herokuapp.com/
